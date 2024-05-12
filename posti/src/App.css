@@ -1,0 +1,89 @@
+body {
+  margin: 0 auto;
+  background-color: #ff7e06f5;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(246, 249, 252, 0.534);
+  padding: 3rem;
+  border-radius: 5px;
+  width: 500px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+input {
+  height: 28px;
+  width: 40px;
+  margin-left: 6px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.price {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Buttons */
+button {
+  font-size: 1.2rem;
+}
+
+.mainBtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.mainBtn:hover {
+  background-color: #45a049;
+}
+
+.mainBtn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.extraServiceBtn {
+  display: flex;
+  flex-direction: column;
+}
+
+.extraServiceBtn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.serviceBtn {
+  background-color: #008cba;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.serviceBtn:hover {
+  background-color: #006a8e;
+}
+
+.serviceBtn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
